@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Daily Edition to PDF",
+  "version": "1.1",
+  "description": "Downloads JPG images from sequential URLs and combines them into a PDF.",
+  "permissions": [
+    "downloads",
+    "https://www.haaretz.co.il/st/inter/Global/dailyedition/today/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Download Daily Edition PDF"
+  }
+}
